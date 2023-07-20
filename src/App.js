@@ -1,6 +1,7 @@
 import ContactMe from './componets/contactMe';
 import Experiences from './componets/experiences';
 import Contribute from './componets/contribution';
+import MyHobbies from './componets/myHobbies';
 import './App.css';
 const { PUBLIC_URL } = process.env;
 function App() {
@@ -19,6 +20,7 @@ function App() {
           <div className='divider'></div>
           <Contribute></Contribute>
           <div className='divider'></div>
+          <MyHobbies></MyHobbies>
       </div>
       
     </div>
